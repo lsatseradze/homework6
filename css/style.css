@@ -1,0 +1,126 @@
+/* container */
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+}
+
+/* header */
+
+header {
+  background-color: #284069;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 53px 98px;
+}
+
+.header_ul {
+  display: flex;
+  column-gap: 50px;
+}
+
+.active {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 27.58px;
+  text-align: left;
+  color: #e29770;
+}
+
+.inactive {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 27.58px;
+  text-align: left;
+  color: #ddeaf8;
+}
+
+/* section */
+
+.section_main {
+  width: calc(1244 / 1440 * 100%);
+  margin: 94px auto;
+}
+
+.section_secondary {
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  margin-top: 68px;
+  justify-content: space-between;
+  row-gap: 30px;
+}
+
+.article_image {
+  border-radius: 10px;
+  width: 100%;
+  height: 220px;
+  margin-bottom: 30px;
+  object-fit: cover;
+}
+
+.section_h2 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36.77px;
+  color: #942c0d;
+}
+
+.card {
+  background-color: #ddeaf8;
+  display: flex;
+  width: 400px;
+  padding: 30px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  border-radius: 10px;
+}
+
+button {
+  background-color: #e29770;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #ffffff;
+  border-radius: 10px;
+  border: none;
+}
+/* footer */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 70px 0;
+  background-color: #284069;
+  row-gap: 40px;
+}
+
+.footer_h2 {
+  font-family: Ubuntu;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.footer_ul {
+  display: flex;
+  column-gap: 32px;
+}
+
+.footer_logo {
+  font-size: 18px;
+
+  color: #e29770;
+}
